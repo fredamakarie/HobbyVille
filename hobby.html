@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HobbyVille: Enjoying Life's Little Pleasures.</title>
+    <style>
+        nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: rgb(120, 202, 42);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HobbyVille</h1>
+    </header>
+     <nav>
+        <ul>
+            <li><a href="Hobby Hub.html">Home</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <article>
+        <p>Hi, I am Omonye and i want to share my hobbies with you. Please fill this form to register for Hobby fest!</p>
+    </article>
+    <form action="/submit-form" method="post">
+        <label for="username">Username (4-8 characters):</label>
+        <input type="text" id="username" name="username" required minlength="4" maxlength="8" placeholder="Username">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="example@domain.com">
+
+        <label for="age">Age:</label>
+        <input type="age" id="age" name="age">
+
+        <label>
+        <input type="checkbox" name="terms" value="accepted" required>
+        I accept the terms and conditions
+        </label><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <img src = "pexels-karolina-grabowska-4750272.jpg" width="500" initial-scale = 1.0 alt = "watering vegetables in a greenhouse">
+    <p>Check out my <a href="https://github.com/fredamakarie" target="_blank">GitHub profile</a> for more projects.</p>
+    <p>Feel free to reach out via the <a href="/contact.html">contact page</a> if you have any questions.</p>
+    <footer>
+
+    </footer>
+</body>
+</html>
